@@ -4,7 +4,7 @@ public class Ejercise32
 {
     public static void Main(string[] args)
     {
-        Console.Write("Ingrese el tamaño del rombo: ");
+        Console.Write("Enter the size of the rhombus: ");
         int n = int.Parse(Console.ReadLine()!);
 
         char[,] r = new char[n, n];
