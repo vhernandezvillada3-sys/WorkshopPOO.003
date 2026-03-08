@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/32/">
-    <Project Path="Ejercice32/Ejercice32.csproj" Id="cde59fd2-34ec-411f-a8d2-5e95c62aacf8" />
+    <Project Path="Ejercice32/Ejercise32.csproj" Id="cde59fd2-34ec-411f-a8d2-5e95c62aacf8" />
+  </Folder>
+  <Folder Name="/33/">
+    <Project Path="Ejercice33/Ejercise33.csproj" Id="ba9a5678-96dc-465b-9cf6-a34c31c6a08a" />
   </Folder>
 </Solution>

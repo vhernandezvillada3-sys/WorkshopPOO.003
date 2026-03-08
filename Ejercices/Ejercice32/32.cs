@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Ejercice32
+public class Ejercise32
 {
     public static void Main(string[] args)
     {
