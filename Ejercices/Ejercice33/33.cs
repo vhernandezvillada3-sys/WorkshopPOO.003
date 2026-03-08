@@ -13,12 +13,12 @@ public class Exercise33
         Console.Write("Enter the value of p: ");
         int p = int.Parse(Console.ReadLine()!);
 
-        // Declare matrices
+    
         int[,] a = new int[m, n];
         int[,] b = new int[n, p];
         int[,] c = new int[m, p];
 
-        // Fill matrix A
+    
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
@@ -27,7 +27,7 @@ public class Exercise33
             }
         }
 
-        // Fill matrix B
+       
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < p; j++)
@@ -36,7 +36,7 @@ public class Exercise33
             }
         }
 
-        // Fill matrix C with the multiplication of matrices A and B
+     
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < p; j++)
@@ -48,7 +48,7 @@ public class Exercise33
             }
         }
 
-        // Display the matrices
+       
         Console.WriteLine("*** A ***");
         ShowMatrix(a, m, n);
 
